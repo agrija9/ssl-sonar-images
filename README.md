@@ -7,10 +7,10 @@ This is the official repository for the ssl-sonar-images paper published at the 
 > Alan Preciado-Grijalva, Bilal Wehbe, Miguel Bande Firvida, Matias Valdenegro-Toro
 > CVPR 2022
 
-## Highlights
+Highlights
 -----------------
 
-## Self-supervised Learning for Sonar Images
+Self-supervised Learning for Sonar Images
 -----------------
 
 ![](figures/ssl_concept_sonar_images-cropped-1.png)
