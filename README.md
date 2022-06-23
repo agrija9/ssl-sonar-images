@@ -13,4 +13,4 @@ This is the official repository for the ssl-sonar-images paper published at the 
 ## Self-supervised Learning for Sonar Images
 -----------------
 
-![SSL_concept](ssl_concept_sonar_images-cropped-1.png)
+![](figures/ssl_concept_sonar_images-cropped-1.png)
