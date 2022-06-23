@@ -12,6 +12,10 @@ Highlights
 - **Datasets:** We present real-life sonar datasets for pretraining and transfer learning evaluations
 - **SSL Approaches:** We study 3 self-supervised learning algorithms to learn representations without labels (RotNet, Denoising Autoencoders, Jigsaw Puzzle)
 - **Pretrained Models:** We provide pretrained models for further computer vision research on sonar image datasets 
+- **Results:** Our results indicate that self-supervised pretraining yields competitive results against supervised pretraining
+
+![](figures/mobilenet_accs_ssl_vs_sl-1.png)
+
 
 Self-supervised Learning for Sonar Images
 -----------------
