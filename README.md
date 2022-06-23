@@ -7,6 +7,10 @@ This is the official repository for the ssl-sonar-images paper published at the 
 > Alan Preciado-Grijalva, Bilal Wehbe, Miguel Bande Firvida, Matias Valdenegro-Toro
 > CVPR 2022
 
+Abstract
+-----------------
+Self-supervised learning has proved to be a powerful approach to learn image representations without the need of large labeled datasets. For underwater robotics, it is of great interest to design computer vision algorithms to improve perception capabilities such as sonar image classification. Due to the confidential nature of sonar imaging and the difficulty to interpret sonar images, it is challenging to create public large labeled sonar datasets to train supervised learning algorithms. In this work, we investigate the potential of three self-supervised learning methods (RotNet, Denoising Autoencoders, and Jigsaw) to learn high-quality sonar image representation without the need of human labels. We present pre-training and transfer learning results on real-life sonar image datasets. Our results indicate that self-supervised pre-training yields classification performance comparable to supervised pre-training in a few-shot transfer learning setup across all three methods
+
 Highlights
 -----------------
 - **Datasets:** We present real-life sonar datasets for pretraining and transfer learning evaluations
@@ -16,12 +20,14 @@ Highlights
 
 ![](figures/mobilenet_accs_ssl_vs_sl-1.png)
 
-
 Self-supervised Learning for Sonar Images
 -----------------
 
 ![](figures/ssl_concept_sonar_images-cropped-1.png)
 
+Results on Watertank and Wild Sonar Data Pretraining
+-----------------
+![](figures/ssl_concept_sonar_images-cropped-1.png)
 
 Citation
 -----------------
