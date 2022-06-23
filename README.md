@@ -27,7 +27,7 @@ Self-supervised Learning for Sonar Images
 
 Results on Watertank and Wild Sonar Data Pretraining
 -----------------
-![](figures/SSL_top_models_comparisons_200_spc_SUBSTRACT_BASELINE_punchline.pdf)
+![](figures/SSL_top_models_comparisons_200_spc_SUBSTRACT_BASELINE_punchline.jpg)
 
 Citation
 -----------------
