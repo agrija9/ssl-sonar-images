@@ -9,8 +9,31 @@ This is the official repository for the ssl-sonar-images paper published at the 
 
 Highlights
 -----------------
+- **Datasets:** We present real-life sonar datasets for pretraining and transfer learning evaluations
+- **SSL Approaches:** We study 3 self-supervised learning algorithms to learn representations without labels (RotNet, Denoising Autoencoders, Jigsaw Puzzle)
+- **Pretrained Models:** We provide pretrained models for further computer vision research on sonar image datasets 
 
 Self-supervised Learning for Sonar Images
 -----------------
 
 ![](figures/ssl_concept_sonar_images-cropped-1.png)
+
+
+Citation
+-----------------
+If you find our research helpful, please consider citing:
+
+```
+@InProceedings{Preciado-Grijalva_2022_CVPR,
+    author    = {Preciado-Grijalva, Alan and Wehbe, Bilal and Firvida, Miguel Bande and Valdenegro-Toro, Matias},
+    title     = {Self-Supervised Learning for Sonar Image Classification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {1499-1508}
+}
+
+```
+
+
+
