@@ -1,5 +1,4 @@
-# SSL Sonar Images
-Self-supervised Learning for Sonar Image Classification [CVPR 2022]. 
+# Self-supervised Learning for Sonar Image Classification
 
 This is the official repository for the ssl-sonar-images paper published at the LatinX in AI workshop @CVPR2022. 
 
