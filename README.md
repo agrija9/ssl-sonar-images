@@ -6,7 +6,7 @@ This is the official repository for the ssl-sonar-images paper published at the 
 > Alan Preciado-Grijalva, Bilal Wehbe, Miguel Bande Firvida, Matias Valdenegro-Toro
 > CVPR 2022
 
-[[poster]](https://drive.google.com/file/d/1PLXS9nMxL3WcPQGf41DDalHg7BT_Ju07/view?usp=sharing) [[talk]](https://drive.google.com/file/d/1kzS0SWO63IoukyvWY_3YfYcuzzFM-ypo/view?usp=sharing)
+[[poster]](https://drive.google.com/file/d/1PLXS9nMxL3WcPQGf41DDalHg7BT_Ju07/view?usp=sharing) [[slides]](https://drive.google.com/file/d/1GlhtgLibv6vHzwexKlkLUYsO2rd4ooek/view?usp=sharing) [[talk]](https://drive.google.com/file/d/1kzS0SWO63IoukyvWY_3YfYcuzzFM-ypo/view?usp=sharing)
 
 Abstract
 -----------------
