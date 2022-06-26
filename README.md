@@ -69,6 +69,22 @@ bash train_self_supervised_sonar1.sh
 Transfer Learning Evaluations
 -----------------
 
+For **RotNet**, you can evaluate the quality of the learned features during pretraining in a transfer learning low-shot setup. For example, if you want to evalute densenet121, go to:
+
+```
+src/rotnet/transfer_learning/run_experiments/densenet121
+```
+
+There will be two jupyter notebooks that compare supervised versus self-supervised pretraining, you can run them via:
+
+```
+# supervised pretraining
+jupyter notebook evaluate_SVM_transfer_learning_classification_supervised.ipynb
+
+# self-supervised pretraining
+jupyter notebook evaluate_SVM_transfer_learning_classification_self_supervised.ipynb
+```
+
 Citation
 -----------------
 If you find our research helpful, please consider citing:
