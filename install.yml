@@ -1,4 +1,4 @@
-name: rotnet
+name: ssl_sonar_images
 channels:
   - conda-forge
   - anaconda

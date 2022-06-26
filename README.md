@@ -30,6 +30,15 @@ Results on Watertank and Wild Sonar Data Pretraining
 -----------------
 ![](figures/SSL_top_models_comparisons_200_spc_SUBSTRACT_BASELINE_punchline.jpg)
 
+Installation
+-----------------
+
+The **install.yml** handles the installation dependencies needed to run the models:
+
+```
+conda env create -f install.yml
+```
+
 Citation
 -----------------
 If you find our research helpful, please consider citing:
