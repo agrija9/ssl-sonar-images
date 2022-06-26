@@ -39,6 +39,36 @@ The **install.yml** handles the installation dependencies needed to run the mode
 conda env create -f install.yml
 ```
 
+Model Pretraining
+-----------------
+
+For **RotNet**, you can find our pretrained models here:
+
+```
+src/rotnet/pretraining/results 
+```
+
+We provide both **self-supervised** and **supervised** pretrained models. As an example, you can find a densenet pretrained network in:
+
+```
+results/self_supervised_learning/checkpoints/sonar1/densenet/batch_size_128/96x96_substract_mean_online_aug_width_16
+```
+
+Conversely, you can train a network (e.g. densenet) from scratch, by going to
+
+```
+src/rotnet/pretraining/run_experiments/densenet
+```
+
+And running
+
+```
+bash train_self_supervised_sonar1.sh
+```
+
+Transfer Learning Evaluations
+-----------------
+
 Citation
 -----------------
 If you find our research helpful, please consider citing:
