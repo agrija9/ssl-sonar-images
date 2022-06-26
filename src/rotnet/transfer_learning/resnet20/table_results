@@ -1,0 +1,109 @@
+Resnet20
+--------
+
+	self-supervised learning
+	------------------------
+
+		flatten_5
+		-------------
+
+		SPC 10 After 10 trials - Test Accuracy is 68.217 +- 1.831
+		SPC 20 After 10 trials - Test Accuracy is 77.922 +- 1.428
+		SPC 30 After 10 trials - Test Accuracy is 81.674 +- 2.01
+		SPC 40 After 10 trials - Test Accuracy is 84.403 +- 1.747
+		SPC 50 After 10 trials - Test Accuracy is 85.643 +- 1.364
+		SPC 80 After 10 trials - Test Accuracy is 89.318 +- 0.751
+		SPC 110 After 10 trials - Test Accuracy is 90.062 +- 1.088
+		SPC 140 After 10 trials - Test Accuracy is 91.659 +- 0.682
+		SPC 170 After 10 trials - Test Accuracy is 92.093 +- 0.88
+		SPC 200 After 10 trials - Test Accuracy is 92.078 +- 0.582
+
+		flatten_accs_ssl = [68.217, 77.922, 81.674, 84.403, 85.643, 89.318, 90.062, 91.659, 92.093, 92.078]
+
+
+		activation_93
+		-------------
+
+		SPC 10 After 10 trials - Test Accuracy is 66.636 +- 2.954
+		SPC 20 After 10 trials - Test Accuracy is 77.054 +- 2.056
+		SPC 30 After 10 trials - Test Accuracy is 84.031 +- 1.517
+		SPC 40 After 10 trials - Test Accuracy is 85.705 +- 0.846
+		SPC 50 After 10 trials - Test Accuracy is 87.008 +- 1.164
+		SPC 80 After 10 trials - Test Accuracy is 91.566 +- 1.543
+		SPC 110 After 10 trials - Test Accuracy is 93.488 +- 0.672
+		SPC 140 After 10 trials - Test Accuracy is 95.287 +- 0.687
+		SPC 170 After 10 trials - Test Accuracy is 95.814 +- 0.404
+		SPC 200 After 10 trials - Test Accuracy is 96.465 +- 0.549
+
+		activation_18_accs_ssl = [66.636, 77.054, 84.031, 85.705, 87.008, 91.566, 93.488, 95.287, 95.814, 96.465]
+
+		
+		activation_91
+		--------
+
+		SPC 10 After 10 trials - Test Accuracy is 66.186 +- 2.145
+		SPC 20 After 10 trials - Test Accuracy is 77.876 +- 1.0
+		SPC 30 After 10 trials - Test Accuracy is 82.124 +- 1.65
+		SPC 40 After 10 trials - Test Accuracy is 85.287 +- 1.311
+		SPC 50 After 10 trials - Test Accuracy is 87.891 +- 1.088
+		SPC 80 After 10 trials - Test Accuracy is 90.698 +- 0.917
+		SPC 110 After 10 trials - Test Accuracy is 93.628 +- 0.83
+		SPC 140 After 10 trials - Test Accuracy is 95.209 +- 0.931
+		SPC 170 After 10 trials - Test Accuracy is 95.457 +- 0.491
+		SPC 200 After 10 trials - Test Accuracy is 96.62 +- 0.562
+
+		activation_17_accs_ssl = [66.186, 77.876, 82.124, 85.287, 87.891, 90.698, 93.628, 95.209, 95.457, 96.62]
+
+
+	supervised learning
+	-------------------
+
+		flatten_5
+		-------------
+
+		SPC 10 After 10 trials - Test Accuracy is 76.512 +- 3.304
+		SPC 20 After 10 trials - Test Accuracy is 84.868 +- 1.875
+		SPC 30 After 10 trials - Test Accuracy is 87.395 +- 1.743
+		SPC 40 After 10 trials - Test Accuracy is 90.202 +- 1.236
+		SPC 50 After 10 trials - Test Accuracy is 90.698 +- 1.552
+		SPC 80 After 10 trials - Test Accuracy is 93.054 +- 1.182
+		SPC 110 After 10 trials - Test Accuracy is 94.62 +- 0.757
+		SPC 140 After 10 trials - Test Accuracy is 95.597 +- 0.585
+		SPC 170 After 10 trials - Test Accuracy is 95.767 +- 0.714
+		SPC 200 After 10 trials - Test Accuracy is 96.171 +- 0.46
+
+		flatten_accs_sl = [76.512, 84.868, 87.395, 90.202, 90.698, 93.054, 94.62, 95.597, 95.767, 96.171]
+
+
+		activation_93
+		-------------
+
+		SPC 10 After 10 trials - Test Accuracy is 70.14 +- 4.408
+		SPC 20 After 10 trials - Test Accuracy is 79.814 +- 1.757
+		SPC 30 After 10 trials - Test Accuracy is 85.628 +- 1.061
+		SPC 40 After 10 trials - Test Accuracy is 88.062 +- 1.404
+		SPC 50 After 10 trials - Test Accuracy is 90.31 +- 0.662
+		SPC 80 After 10 trials - Test Accuracy is 93.008 +- 0.934
+		SPC 110 After 10 trials - Test Accuracy is 95.271 +- 0.741
+		SPC 140 After 10 trials - Test Accuracy is 95.69 +- 0.823
+		SPC 170 After 10 trials - Test Accuracy is 96.713 +- 0.592
+		SPC 200 After 10 trials - Test Accuracy is 97.271 +- 0.601
+
+		activation_18_accs_sl = [70.14, 79.814, 85.628 , 88.062 , 90.31, 93.008, 95.271, 95.69, 96.713 , 97.271]
+		
+		activation_91
+		--------
+
+		SPC 10 After 10 trials - Test Accuracy is 71.612 +- 3.106
+		SPC 20 After 10 trials - Test Accuracy is 81.24 +- 1.66
+		SPC 30 After 10 trials - Test Accuracy is 86.326 +- 1.459
+		SPC 40 After 10 trials - Test Accuracy is 88.434 +- 1.44
+		SPC 50 After 10 trials - Test Accuracy is 89.752 +- 0.952
+		SPC 80 After 10 trials - Test Accuracy is 92.636 +- 1.09
+		SPC 110 After 10 trials - Test Accuracy is 95.256 +- 0.878
+		SPC 140 After 10 trials - Test Accuracy is 95.814 +- 0.422
+		SPC 170 After 10 trials - Test Accuracy is 96.357 +- 0.662
+		SPC 200 After 10 trials - Test Accuracy is 97.147 +- 0.791
+
+		activation_17_accs_sl = [71.612, 81.24, 86.326, 88.434, 89.752, 92.636, 95.256, 95.814, 96.357, 97.147]
+

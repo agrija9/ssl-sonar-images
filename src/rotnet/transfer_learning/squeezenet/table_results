@@ -1,0 +1,110 @@
+Squeezenet
+--------
+
+	self-supervised learning
+	------------------------
+
+		batch_norm_8
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 62.543 +- 2.404
+			SPC 20 After 10 trials - Test Accuracy is 72.093 +- 2.075
+			SPC 30 After 10 trials - Test Accuracy is 77.69 +- 1.797
+			SPC 40 After 10 trials - Test Accuracy is 82.109 +- 0.88
+			SPC 50 After 10 trials - Test Accuracy is 82.388 +- 1.043
+			SPC 80 After 10 trials - Test Accuracy is 87.023 +- 0.928
+			SPC 110 After 10 trials - Test Accuracy is 89.566 +- 0.855
+			SPC 140 After 10 trials - Test Accuracy is 90.481 +- 0.888
+			SPC 170 After 10 trials - Test Accuracy is 91.674 +- 1.056
+			SPC 200 After 10 trials - Test Accuracy is 92.372 +- 0.583
+
+			batch_norm_8_accs_ssl = [62.543, 72.093, 77.69, 82.109, 82.388, 87.023, 89.566, 90.481, 91.674, 92.372]
+
+
+		batch_norm_9
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 39.705 +- 2.995
+			SPC 20 After 10 trials - Test Accuracy is 47.984 +- 2.279
+			SPC 30 After 10 trials - Test Accuracy is 52.744 +- 2.226
+			SPC 40 After 10 trials - Test Accuracy is 55.147 +- 1.623
+			SPC 50 After 10 trials - Test Accuracy is 56.946 +- 1.395
+			SPC 80 After 10 trials - Test Accuracy is 59.302 +- 1.621
+			SPC 110 After 10 trials - Test Accuracy is 61.643 +- 1.537
+			SPC 140 After 10 trials - Test Accuracy is 62.682 +- 1.112
+			SPC 170 After 10 trials - Test Accuracy is 62.264 +- 1.159
+			SPC 200 After 10 trials - Test Accuracy is 64.651 +- 1.339
+
+			batch_norm_9_accs_ssl = [39.705, 47.984, 52.744, 55.147, 56.946, 59.302, 61.643, 62.682, 62.264, 64.651]
+
+
+		
+		global_average_pooling2d
+		--------
+
+			SPC 10 After 10 trials - Test Accuracy is 23.922 +- 2.632
+			SPC 20 After 10 trials - Test Accuracy is 24.434 +- 1.43
+			SPC 30 After 10 trials - Test Accuracy is 25.38 +- 1.292
+			SPC 40 After 10 trials - Test Accuracy is 25.132 +- 0.989
+			SPC 50 After 10 trials - Test Accuracy is 25.969 +- 0.824
+			SPC 80 After 10 trials - Test Accuracy is 25.519 +- 0.659
+			SPC 110 After 10 trials - Test Accuracy is 26.279 +- 0.803
+			SPC 140 After 10 trials - Test Accuracy is 25.907 +- 0.739
+			SPC 170 After 10 trials - Test Accuracy is 25.845 +- 0.665
+			SPC 200 After 10 trials - Test Accuracy is 25.953 +- 0.988
+
+			global_average_pooling2d_accs_ssl = [23.922, 24.434, 25.38, 25.132, 25.969, 25.519, 26.279, 25.907, 25.845, 25.953]
+
+
+	supervised learning
+	-------------------
+
+		batch_norm_8
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 71.767 +- 2.616
+			SPC 20 After 10 trials - Test Accuracy is 79.054 +- 2.286
+			SPC 30 After 10 trials - Test Accuracy is 85.705 +- 1.701
+			SPC 40 After 10 trials - Test Accuracy is 87.442 +- 1.402
+			SPC 50 After 10 trials - Test Accuracy is 89.659 +- 1.12
+			SPC 80 After 10 trials - Test Accuracy is 92.295 +- 0.791
+			SPC 110 After 10 trials - Test Accuracy is 93.674 +- 0.925
+			SPC 140 After 10 trials - Test Accuracy is 95.147 +- 0.704
+			SPC 170 After 10 trials - Test Accuracy is 95.938 +- 0.554
+			SPC 200 After 10 trials - Test Accuracy is 96.31 +- 0.409
+
+			batch_norm_8_accs_sl = [71.767, 79.054, 85.705, 87.442, 89.659, 92.295, 93.674, 95.147, 95.938, 96.31]
+
+
+		batch_norm_9
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 56.078 +- 2.52
+			SPC 20 After 10 trials - Test Accuracy is 66.326 +- 2.225
+			SPC 30 After 10 trials - Test Accuracy is 71.38 +- 1.603
+			SPC 40 After 10 trials - Test Accuracy is 73.597 +- 0.966
+			SPC 50 After 10 trials - Test Accuracy is 76.202 +- 1.725
+			SPC 80 After 10 trials - Test Accuracy is 78.698 +- 0.835
+			SPC 110 After 10 trials - Test Accuracy is 80.341 +- 1.53
+			SPC 140 After 10 trials - Test Accuracy is 81.752 +- 0.846
+			SPC 170 After 10 trials - Test Accuracy is 82.0 +- 1.374
+			SPC 200 After 10 trials - Test Accuracy is 83.07 +- 0.849
+
+			batch_norm_9_accs_sl = [56.078, 66.326, 71.38, 73.597, 76.202, 78.698, 80.341, 81.752, 82.0, 83.07]
+		
+
+		global_average_pooling2d
+		--------
+
+			SPC 10 After 10 trials - Test Accuracy is 38.775 +- 2.612
+			SPC 20 After 10 trials - Test Accuracy is 42.372 +- 1.724
+			SPC 30 After 10 trials - Test Accuracy is 43.302 +- 2.252
+			SPC 40 After 10 trials - Test Accuracy is 45.349 +- 1.595
+			SPC 50 After 10 trials - Test Accuracy is 45.643 +- 1.252
+			SPC 80 After 10 trials - Test Accuracy is 47.488 +- 0.99
+			SPC 110 After 10 trials - Test Accuracy is 47.225 +- 1.235
+			SPC 140 After 10 trials - Test Accuracy is 47.86 +- 1.189
+			SPC 170 After 10 trials - Test Accuracy is 48.372 +- 1.223
+			SPC 200 After 10 trials - Test Accuracy is 48.202 +- 1.151
+
+			global_average_pooling2d_accs_sl = [38.775, 42.372, 43.302, 45.349, 45.643, 47.488, 47.225, 47.86, 48.372, 48.202]

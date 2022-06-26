@@ -1,0 +1,106 @@
+Mobielent
+--------
+
+	self-supervised learning
+	------------------------
+
+		conv_pw_11_relu
+		-------------
+
+		SCP 10 After 10 trials - Test Accuracy is 58.217 +- 1.657
+		SCP 20 After 10 trials - Test Accuracy is 67.147 +- 1.751
+		SCP 30 After 10 trials - Test Accuracy is 71.318 +- 2.233
+		SCP 40 After 10 trials - Test Accuracy is 74.667 +- 1.131
+		SCP 50 After 10 trials - Test Accuracy is 77.194 +- 1.991
+		SCP 80 After 10 trials - Test Accuracy is 81.891 +- 1.23
+		SCP 110 After 10 trials - Test Accuracy is 83.86 +- 1.039
+		SCP 140 After 10 trials - Test Accuracy is 85.039 +- 0.812
+		SCP 170 After 10 trials - Test Accuracy is 86.915 +- 0.647
+		SCP 200 After 10 trials - Test Accuracy is 88.14 +- 0.763
+
+
+		conv_pw_11_relu_accs_ssl = [58.217, 67.147, 71.318, 74.667, 77.194, 81.891, 83.86, 85.039, 86.915, 88.14]
+
+
+		flatten_5
+		-------------
+
+		SCP 10 After 10 trials - Test Accuracy is 51.085 +- 2.079
+		SCP 20 After 10 trials - Test Accuracy is 58.357 +- 1.747
+		SCP 30 After 10 trials - Test Accuracy is 64.186 +- 1.233
+		SCP 40 After 10 trials - Test Accuracy is 68.326 +- 1.284
+		SCP 50 After 10 trials - Test Accuracy is 70.0 +- 1.69
+		SCP 80 After 10 trials - Test Accuracy is 73.426 +- 1.135
+		SCP 110 After 10 trials - Test Accuracy is 76.682 +- 0.996
+		SCP 140 After 10 trials - Test Accuracy is 78.217 +- 1.003
+		SCP 170 After 10 trials - Test Accuracy is 80.357 +- 1.173
+		SCP 200 After 10 trials - Test Accuracy is 82.357 +- 0.99
+
+		flatten_5_accs_ssl = [51.085, 58.357, 64.186, 68.326, 70.0, 73.426, 76.682, 78.217, 80.357, 82.357]
+		
+		conv_pw_12_relu
+		--------
+
+		SCP 10 After 10 trials - Test Accuracy is 54.977 +- 2.039
+		SCP 20 After 10 trials - Test Accuracy is 62.372 +- 1.292
+		SCP 30 After 10 trials - Test Accuracy is 67.333 +- 1.718
+		SCP 40 After 10 trials - Test Accuracy is 70.636 +- 1.239
+		SCP 50 After 10 trials - Test Accuracy is 73.721 +- 1.468
+		SCP 80 After 10 trials - Test Accuracy is 77.039 +- 1.384
+		SCP 110 After 10 trials - Test Accuracy is 79.302 +- 1.243
+		SCP 140 After 10 trials - Test Accuracy is 81.24 +- 0.823
+		SCP 170 After 10 trials - Test Accuracy is 83.101 +- 0.866
+		SCP 200 After 10 trials - Test Accuracy is 83.318 +- 0.77
+
+		conv_pw_12_relu_accs_ssl = [54.977, 62.372, 67.333, 70.636, 73.721, 77.039, 79.302, 81.24, 83.101, 83.318]
+		
+	supervised learning
+	-------------------
+
+		conv_pw_11_relu
+		-------------
+
+		SPC 10 After 10 trials - Test Accuracy is 63.907 +- 1.64
+		SPC 20 After 10 trials - Test Accuracy is 70.899 +- 1.749
+		SPC 30 After 10 trials - Test Accuracy is 72.62 +- 1.336
+		SPC 40 After 10 trials - Test Accuracy is 76.388 +- 1.724
+		SPC 50 After 10 trials - Test Accuracy is 78.202 +- 1.057
+		SPC 80 After 10 trials - Test Accuracy is 81.488 +- 1.625
+		SPC 110 After 10 trials - Test Accuracy is 84.093 +- 1.277
+		SPC 140 After 10 trials - Test Accuracy is 85.55 +- 0.826
+		SPC 170 After 10 trials - Test Accuracy is 87.023 +- 1.242
+		SPC 200 After 10 trials - Test Accuracy is 87.349 +- 0.847
+
+		conv_pw_11_relu_accs_sl = [63.907 70.899, 72.62, 76.388, 78.202, 81.488, 84.093, 85.55, 87.023, 87.349]
+
+		flatten_5
+		-------------
+
+		SPC 10 After 10 trials - Test Accuracy is 60.047 +- 3.155
+		SPC 20 After 10 trials - Test Accuracy is 66.264 +- 1.667
+		SPC 30 After 10 trials - Test Accuracy is 69.984 +- 1.127
+		SPC 40 After 10 trials - Test Accuracy is 72.109 +- 1.102
+		SPC 50 After 10 trials - Test Accuracy is 74.295 +- 1.462
+		SPC 80 After 10 trials - Test Accuracy is 77.209 +- 0.966
+		SPC 110 After 10 trials - Test Accuracy is 78.806 +- 0.861
+		SPC 140 After 10 trials - Test Accuracy is 79.953 +- 1.112
+		SPC 170 After 10 trials - Test Accuracy is 81.147 +- 0.928
+		SPC 200 After 10 trials - Test Accuracy is 81.643 +- 1.165
+
+		flatten_5_accs_sl = [60.047, 66.264, 69.984, 72.109, 74.295, 77.209, 78.806, 79.953, 81.147, 81.643]
+		
+		conv_pw_12_relu
+		--------
+
+		SPC 10 After 10 trials - Test Accuracy is 59.984 +- 1.891
+		SPC 20 After 10 trials - Test Accuracy is 67.891 +- 1.979
+		SPC 30 After 10 trials - Test Accuracy is 72.45 +- 1.357
+		SPC 40 After 10 trials - Test Accuracy is 74.357 +- 1.356
+		SPC 50 After 10 trials - Test Accuracy is 76.233 +- 1.254
+		SPC 80 After 10 trials - Test Accuracy is 78.729 +- 1.232
+		SPC 110 After 10 trials - Test Accuracy is 80.403 +- 1.277
+		SPC 140 After 10 trials - Test Accuracy is 82.465 +- 1.159
+		SPC 170 After 10 trials - Test Accuracy is 83.395 +- 0.739
+		SPC 200 After 10 trials - Test Accuracy is 83.69 +- 0.484
+
+		conv_pw_12_relu_accs_sl = [59.984, 67.891, 72.45, 74.357, 76.233, 78.729, 80.403, 82.465, 83.395, 83.69]

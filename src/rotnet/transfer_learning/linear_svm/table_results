@@ -1,0 +1,22 @@
+SVM Linear Classifier on Turnedtable Dataset 
+--------
+
+	self-supervised learning (NA)
+	------------------------
+
+
+	supervised learning
+	-------------------
+
+		SPC 1 After 10 trials - Test Accuracy is 27.86 +- 4.744
+
+		SPC 10 After 10 trials - Test Accuracy is 63.55 +- 3.663
+		SPC 20 After 10 trials - Test Accuracy is 76.527 +- 2.098
+		SPC 30 After 10 trials - Test Accuracy is 81.829 +- 1.286
+		SPC 40 After 10 trials - Test Accuracy is 85.395 +- 1.071
+		SPC 50 After 10 trials - Test Accuracy is 87.798 +- 1.29
+		SPC 80 After 10 trials - Test Accuracy is 90.326 +- 1.68
+		SPC 110 After 10 trials - Test Accuracy is 92.512 +- 0.791
+		SPC 140 After 10 trials - Test Accuracy is 93.969 +- 0.742
+		SPC 170 After 10 trials - Test Accuracy is 94.884 +- 0.654
+		SPC 200 After 10 trials - Test Accuracy is 95.674 +- 0.903

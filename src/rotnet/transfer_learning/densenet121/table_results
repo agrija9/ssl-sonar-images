@@ -1,0 +1,106 @@
+Densenet
+--------
+
+	self-supervised learning
+	------------------------
+
+		conv5_block15
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 67.953 +- 2.174
+			SPC 20 After 10 trials - Test Accuracy is 77.395 +- 1.978
+			SPC 30 After 10 trials - Test Accuracy is 84.279 +- 0.956
+			SPC 40 After 10 trials - Test Accuracy is 85.597 +- 1.202
+			SPC 50 After 10 trials - Test Accuracy is 87.566 +- 0.906
+			SPC 80 After 10 trials - Test Accuracy is 90.853 +- 0.8
+			SPC 110 After 10 trials - Test Accuracy is 92.109 +- 0.905
+			SPC 140 After 10 trials - Test Accuracy is 93.953 +- 0.58
+			SPC 170 After 10 trials - Test Accuracy is 94.465 +- 0.405
+			SPC 200 After 10 trials - Test Accuracy is 95.023 +- 0.435
+
+			conv5_block15_accs = [67.953, 77.395, 84.279, 85.597, 87.566, 90.853, 92.109, 93.953, 94.465, 95.023]
+
+
+		conv5_block16
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 68.853 +- 2.884
+			SPC 20 After 10 trials - Test Accuracy is 78.977 +- 1.215
+			SPC 30 After 10 trials - Test Accuracy is 83.829 +- 1.446
+			SPC 40 After 10 trials - Test Accuracy is 86.899 +- 1.133
+			SPC 50 After 10 trials - Test Accuracy is 88.186 +- 1.464
+			SPC 80 After 10 trials - Test Accuracy is 91.039 +- 1.133
+			SPC 110 After 10 trials - Test Accuracy is 92.589 +- 0.73
+			SPC 140 After 10 trials - Test Accuracy is 93.907 +- 0.704
+			SPC 170 After 10 trials - Test Accuracy is 94.791 +- 0.718
+			SPC 200 After 10 trials - Test Accuracy is 94.667 +- 0.56
+
+			conv5_block16_accs = [68.853, 78.977, 83.829, 86.899, 88.186, 91.039, 92.589, 93.907, 94.791, 94.667]
+		
+		avg_pool
+		--------
+
+			SPC 10 After 10 trials - Test Accuracy is 64.512 +- 3.174
+			SPC 20 After 10 trials - Test Accuracy is 72.667 +- 1.179
+			SPC 30 After 10 trials - Test Accuracy is 78.279 +- 1.316
+			SPC 40 After 10 trials - Test Accuracy is 80.961 +- 1.115
+			SPC 50 After 10 trials - Test Accuracy is 83.736 +- 1.132
+			SPC 80 After 10 trials - Test Accuracy is 86.31 +- 1.101
+			SPC 110 After 10 trials - Test Accuracy is 88.264 +- 1.052
+			SPC 140 After 10 trials - Test Accuracy is 88.868 +- 0.608
+			SPC 170 After 10 trials - Test Accuracy is 90.357 +- 0.619
+			SPC 200 After 10 trials - Test Accuracy is 90.171 +- 0.691
+
+			avg_pool_accs = [64.512, 72.667, 78.279, 80.961, 83.736, 86.31, 88.264, 88.868, 90.357, 90.171]
+
+	supervised learning
+	-------------------
+
+		conv5_block15
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 69.953 +- 3.296
+			SPC 20 After 10 trials - Test Accuracy is 79.054 +- 2.513
+			SPC 30 After 10 trials - Test Accuracy is 83.008 +- 1.391
+			SPC 40 After 10 trials - Test Accuracy is 86.698 +- 0.948
+			SPC 50 After 10 trials - Test Accuracy is 88.729 +- 0.855
+			SPC 80 After 10 trials - Test Accuracy is 91.783 +- 1.101
+			SPC 110 After 10 trials - Test Accuracy is 93.752 +- 0.643
+			SPC 140 After 10 trials - Test Accuracy is 94.543 +- 0.733
+			SPC 170 After 10 trials - Test Accuracy is 95.008 +- 0.653
+			SPC 200 After 10 trials - Test Accuracy is 95.705 +- 0.41
+
+			conv5_block15_accs = [69.953, 79.054, 83.008, 86.698, 88.729, 91.783, 93.752, 94.543, 95.008, 95.705]
+
+
+		conv5_block16
+		-------------
+
+			SPC 10 After 10 trials - Test Accuracy is 68.977 +- 3.349
+			SPC 20 After 10 trials - Test Accuracy is 79.55 +- 2.368
+			SPC 30 After 10 trials - Test Accuracy is 83.969 +- 2.484
+			SPC 40 After 10 trials - Test Accuracy is 86.264 +- 1.38
+			SPC 50 After 10 trials - Test Accuracy is 89.287 +- 1.333
+			SPC 80 After 10 trials - Test Accuracy is 91.783 +- 0.714
+			SPC 110 After 10 trials - Test Accuracy is 93.566 +- 0.791
+			SPC 140 After 10 trials - Test Accuracy is 94.372 +- 0.788
+			SPC 170 After 10 trials - Test Accuracy is 95.318 +- 0.604
+			SPC 200 After 10 trials - Test Accuracy is 95.612 +- 0.551
+
+			conv5_block16_accs = [68.977, 79.55, 83.969, 86.264, 89.287, 91.783, 93.566, 94.372, 95.318, 95.612]
+
+
+		avg_pool
+		--------
+			SPC 10 After 10 trials - Test Accuracy is 63.659 +- 2.708
+			SPC 20 After 10 trials - Test Accuracy is 73.721 +- 1.989
+			SPC 30 After 10 trials - Test Accuracy is 78.76 +- 2.059
+			SPC 40 After 10 trials - Test Accuracy is 81.829 +- 1.397
+			SPC 50 After 10 trials - Test Accuracy is 83.287 +- 0.927
+			SPC 80 After 10 trials - Test Accuracy is 87.101 +- 0.749
+			SPC 110 After 10 trials - Test Accuracy is 88.605 +- 0.858
+			SPC 140 After 10 trials - Test Accuracy is 90.047 +- 1.122
+			SPC 170 After 10 trials - Test Accuracy is 90.868 +- 0.979
+			SPC 200 After 10 trials - Test Accuracy is 91.969 +- 0.372
+
+			avg_pool_accs = [63.659, 73.721, 78.76, 81.829, 83.287, 87.101, 88.605, 90.047, 90.868, 91.969]
