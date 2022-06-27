@@ -30,6 +30,10 @@ Results on Watertank and Wild Sonar Data Pretraining
 -----------------
 ![](figures/SSL_top_models_comparisons_200_spc_SUBSTRACT_BASELINE_punchline.jpg)
 
+Sonar Datasets
+-----------------
+In this work, we performed pretraining and transfer learning experiments on the **Watertank** and **Turntable** datasets, respectively. If you want to explore our SSL methods with this data, please download them from the [Forward-Looking Sonar Marine Debris Datasets](https://github.com/mvaldenegro/marine-debris-fls-datasets) repository and put them in a ```datasets/``` directory.
+
 Installation
 -----------------
 
