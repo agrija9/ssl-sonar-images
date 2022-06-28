@@ -82,6 +82,21 @@ And run the cells in the jupyter notebook
 jupyter notebook train_denoising_autoencoder.ipynb
 ```
 
+For **Jigsaw**, cd into
+
+```
+src/jigsaw/
+```
+
+And run the cells in the following jupyter notebook
+
+```
+jupyter notebook train_jigsaw_puzzle_time_distributed_wrapper.ipynb
+```
+
+Note: this will generate permutation datasets that will contain several thousands of images, expect 3-4 GB of memory for this.
+
+
 Transfer Learning Evaluations
 -----------------
 
@@ -109,6 +124,11 @@ jupyter notebook evaluate_denoising_autoencoder_transfer_learning_svm.ipynb
 
 This performs transfer learning evaluations for an increasing number of samples per class and specific hidden layers.
 
+Similarly, for **Jigsaw**, run the following notebook
+
+```
+jupyter notebook evaluate_jigsaw_transfer_learning_svm.ipynb
+```
 
 Citation
 -----------------
