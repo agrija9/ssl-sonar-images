@@ -70,6 +70,18 @@ And running
 bash train_self_supervised_sonar1.sh
 ```
 
+For the **Denoising Autoencoder**, go to 
+
+```
+src/denoising_autoencder/
+```
+
+And run the cells in the jupyter notebook
+
+```
+jupyter notebook train_denoising_autoencoder.ipynb
+```
+
 Transfer Learning Evaluations
 -----------------
 
@@ -88,6 +100,15 @@ jupyter notebook evaluate_SVM_transfer_learning_classification_supervised.ipynb
 # self-supervised pretraining
 jupyter notebook evaluate_SVM_transfer_learning_classification_self_supervised.ipynb
 ```
+
+For the **Denoising Autoencoder**, run the following notebook
+
+```
+jupyter notebook evaluate_denoising_autoencoder_transfer_learning_svm.ipynb
+```
+
+This performs transfer learning evaluations for an increasing number of samples per class and specific hidden layers.
+
 
 Citation
 -----------------
