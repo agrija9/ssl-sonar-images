@@ -1,0 +1,3 @@
+Predictions shape:  (3950, 10)
+True labels shape:  (3950, 10)
+Accuracy on 3950 test samples: 89.01%

@@ -1,0 +1,3 @@
+Predictions shape:  (5925, 15)
+True labels shape:  (5925, 15)
+Accuracy on 5925 test samples: 96.03%

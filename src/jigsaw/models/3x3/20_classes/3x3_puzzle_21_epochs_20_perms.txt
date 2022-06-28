@@ -1,0 +1,3 @@
+Predictions shape:  (7900, 20)
+True labels shape:  (7900, 20)
+Accuracy on 7900 test samples: 94.87%

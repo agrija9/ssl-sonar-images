@@ -1,0 +1,3 @@
+Predictions shape:  (1975, 5)
+True labels shape:  (1975, 5)
+Accuracy on 1975 test samples: 92.15%
